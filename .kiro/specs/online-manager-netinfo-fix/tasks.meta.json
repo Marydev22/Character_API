@@ -1,0 +1,155 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Write bug condition exploration test": [
+      {
+        "executionId": "e19d7930-f904-48bc-b172-c82def9ff8eb",
+        "chatSessionId": "sess_08dd9cd5-ec43-4e3c-95a5-fe339aec7264",
+        "timestamp": 1793071156533
+      },
+      {
+        "executionId": "e19d7930-f904-48bc-b172-c82def9ff8eb",
+        "chatSessionId": "sess_08dd9cd5-ec43-4e3c-95a5-fe339aec7264",
+        "timestamp": 1793071162224
+      },
+      {
+        "executionId": "a06eb990-4682-4fad-b63d-2c383aac61ba",
+        "chatSessionId": "sess_08dd9cd5-ec43-4e3c-95a5-fe339aec7264",
+        "timestamp": 1793072056779
+      },
+      {
+        "executionId": "a06eb990-4682-4fad-b63d-2c383aac61ba",
+        "chatSessionId": "sess_08dd9cd5-ec43-4e3c-95a5-fe339aec7264",
+        "timestamp": 1793072078441
+      }
+    ],
+    "2. Write preservation property tests (BEFORE implementing fix)": [
+      {
+        "executionId": "e19d7930-f904-48bc-b172-c82def9ff8eb",
+        "chatSessionId": "sess_08dd9cd5-ec43-4e3c-95a5-fe339aec7264",
+        "timestamp": 1793071156708
+      },
+      {
+        "executionId": "a06eb990-4682-4fad-b63d-2c383aac61ba",
+        "chatSessionId": "sess_08dd9cd5-ec43-4e3c-95a5-fe339aec7264",
+        "timestamp": 1793072078739
+      }
+    ],
+    "3.1 Install `@react-native-community/netinfo` via Expo CLI": [
+      {
+        "executionId": "e19d7930-f904-48bc-b172-c82def9ff8eb",
+        "chatSessionId": "sess_08dd9cd5-ec43-4e3c-95a5-fe339aec7264",
+        "timestamp": 1793071156900
+      },
+      {
+        "executionId": "a06eb990-4682-4fad-b63d-2c383aac61ba",
+        "chatSessionId": "sess_08dd9cd5-ec43-4e3c-95a5-fe339aec7264",
+        "timestamp": 1793072082849
+      },
+      {
+        "executionId": "a06eb990-4682-4fad-b63d-2c383aac61ba",
+        "chatSessionId": "sess_08dd9cd5-ec43-4e3c-95a5-fe339aec7264",
+        "timestamp": 1793072403108
+      }
+    ],
+    "3.2 Rewrite `src/query/onlineManager.ts`": [
+      {
+        "executionId": "e19d7930-f904-48bc-b172-c82def9ff8eb",
+        "chatSessionId": "sess_08dd9cd5-ec43-4e3c-95a5-fe339aec7264",
+        "timestamp": 1793071157020
+      },
+      {
+        "executionId": "a06eb990-4682-4fad-b63d-2c383aac61ba",
+        "chatSessionId": "sess_08dd9cd5-ec43-4e3c-95a5-fe339aec7264",
+        "timestamp": 1793072405600
+      },
+      {
+        "executionId": "a06eb990-4682-4fad-b63d-2c383aac61ba",
+        "chatSessionId": "sess_08dd9cd5-ec43-4e3c-95a5-fe339aec7264",
+        "timestamp": 1793072476519
+      }
+    ],
+    "3.3 Create `src/components/ConnectionBanner.tsx`": [
+      {
+        "executionId": "e19d7930-f904-48bc-b172-c82def9ff8eb",
+        "chatSessionId": "sess_08dd9cd5-ec43-4e3c-95a5-fe339aec7264",
+        "timestamp": 1793071157103
+      },
+      {
+        "executionId": "a06eb990-4682-4fad-b63d-2c383aac61ba",
+        "chatSessionId": "sess_08dd9cd5-ec43-4e3c-95a5-fe339aec7264",
+        "timestamp": 1793072479067
+      },
+      {
+        "executionId": "a06eb990-4682-4fad-b63d-2c383aac61ba",
+        "chatSessionId": "sess_08dd9cd5-ec43-4e3c-95a5-fe339aec7264",
+        "timestamp": 1793072530754
+      }
+    ],
+    "3.4 Update `src/app/_layout.tsx` to mount ConnectionBanner": [
+      {
+        "executionId": "e19d7930-f904-48bc-b172-c82def9ff8eb",
+        "chatSessionId": "sess_08dd9cd5-ec43-4e3c-95a5-fe339aec7264",
+        "timestamp": 1793071157229
+      },
+      {
+        "executionId": "a06eb990-4682-4fad-b63d-2c383aac61ba",
+        "chatSessionId": "sess_08dd9cd5-ec43-4e3c-95a5-fe339aec7264",
+        "timestamp": 1793072533610
+      },
+      {
+        "executionId": "a06eb990-4682-4fad-b63d-2c383aac61ba",
+        "chatSessionId": "sess_08dd9cd5-ec43-4e3c-95a5-fe339aec7264",
+        "timestamp": 1793072556056
+      }
+    ],
+    "3.5 Verify bug condition exploration test now passes": [
+      {
+        "executionId": "e19d7930-f904-48bc-b172-c82def9ff8eb",
+        "chatSessionId": "sess_08dd9cd5-ec43-4e3c-95a5-fe339aec7264",
+        "timestamp": 1793071157345
+      },
+      {
+        "executionId": "a06eb990-4682-4fad-b63d-2c383aac61ba",
+        "chatSessionId": "sess_08dd9cd5-ec43-4e3c-95a5-fe339aec7264",
+        "timestamp": 1793072558890
+      }
+    ],
+    "3.6 Verify preservation tests still pass": [
+      {
+        "executionId": "e19d7930-f904-48bc-b172-c82def9ff8eb",
+        "chatSessionId": "sess_08dd9cd5-ec43-4e3c-95a5-fe339aec7264",
+        "timestamp": 1793071157611
+      },
+      {
+        "executionId": "a06eb990-4682-4fad-b63d-2c383aac61ba",
+        "chatSessionId": "sess_08dd9cd5-ec43-4e3c-95a5-fe339aec7264",
+        "timestamp": 1793072559233
+      }
+    ],
+    "4. Checkpoint — Ensure all tests pass and project builds": [
+      {
+        "executionId": "e19d7930-f904-48bc-b172-c82def9ff8eb",
+        "chatSessionId": "sess_08dd9cd5-ec43-4e3c-95a5-fe339aec7264",
+        "timestamp": 1793071157711
+      },
+      {
+        "executionId": "a06eb990-4682-4fad-b63d-2c383aac61ba",
+        "chatSessionId": "sess_08dd9cd5-ec43-4e3c-95a5-fe339aec7264",
+        "timestamp": 1793072562124
+      },
+      {
+        "executionId": "a06eb990-4682-4fad-b63d-2c383aac61ba",
+        "chatSessionId": "sess_08dd9cd5-ec43-4e3c-95a5-fe339aec7264",
+        "timestamp": 1793072753788
+      }
+    ],
+    "3. Fix onlineManager — replace expo-network listener with NetInfo + AbortController": [
+      {
+        "executionId": "a06eb990-4682-4fad-b63d-2c383aac61ba",
+        "chatSessionId": "sess_08dd9cd5-ec43-4e3c-95a5-fe339aec7264",
+        "timestamp": 1793072559583
+      }
+    ]
+  }
+}
